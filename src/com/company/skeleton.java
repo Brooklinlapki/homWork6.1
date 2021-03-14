@@ -3,6 +3,9 @@ package com.company;
 public class skeleton extends Boss{
     public static int numberOfArrows;
 
+    public skeleton() {
+        numberOfArrows++;
+    }
 
     public int getNumberOfArrows() {
         return numberOfArrows;
