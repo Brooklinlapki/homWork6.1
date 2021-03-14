@@ -51,6 +51,7 @@ public class Main {
 
         System.out.println("---------");
 
-        skeleton.sum(skeleton1.getBullet(), skeleton2.getBullet());
+        skeleton.numberOfArrows = skeleton1.getBullet() + skeleton2.getBullet();
+        System.out.println("Количество лука: " + skeleton.numberOfArrows);
     }
 }
