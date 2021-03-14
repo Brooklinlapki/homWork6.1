@@ -14,6 +14,6 @@ public class Boss extends GameEntity {
     public String printInfo(){
         return "Здоровья : " + getHealth()  + "\n" + "Удар : " + getDamage() + "\n"
                 + "Суперсила: " + getSuperPower() + "\n" + "Тип защиты: " + getTypeOfDefence()
-                + "\n" + "Оружия: " + getGiveWeapon();
+                + "\n" + "Оружия: " + getGiveWeapon() + "\n" + "---------";
     }
 }
